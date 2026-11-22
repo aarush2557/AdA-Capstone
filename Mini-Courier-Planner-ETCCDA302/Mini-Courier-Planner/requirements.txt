@@ -1,0 +1,2 @@
+# Core project uses only Python standard library.
+# Optional chart regeneration: matplotlib>=3.7

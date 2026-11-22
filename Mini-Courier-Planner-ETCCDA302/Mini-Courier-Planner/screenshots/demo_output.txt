@@ -1,0 +1,34 @@
+==============================================================
+              MINI-COURIER PLANNER
+==============================================================
+
+1) PARCEL PRIORITIZATION
+Merge sort: P102, P103, P105, P101, P104
+Quick sort: P102, P103, P105, P101, P104
+
+2) OPTIMAL BOX FILLING (0/1 KNAPSACK)
+Capacity: 20 kg | Selected: P101, P102, P103
+Packed weight: 19 kg | Total value: 37
+
+3) SHORTEST PATHS (DIJKSTRA)
+W -> A: 10 km | Path: W -> A
+W -> B: 15 km | Path: W -> B
+W -> C: 20 km | Path: W -> C
+W -> D: 25 km | Path: W -> D
+W -> W: 0 km | Path: W
+
+4) DELIVERY TOUR (NEAREST-NEIGHBOR TSP APPROXIMATION)
+Route: W -> A -> B -> C -> D -> W
+Total tour distance: 55 km
+
+Planning complete.
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
