@@ -1,0 +1,4 @@
+# Only needed for charts (performance.py, visualize.py) and the PDF report (make_report_pdf.py).
+# The algorithms themselves use only the Python standard library.
+matplotlib>=3.5
+reportlab>=3.6

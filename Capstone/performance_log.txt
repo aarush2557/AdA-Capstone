@@ -1,0 +1,6 @@
+  experiment 'sorting' finished in 2.3 s
+  experiment 'knapsack' finished in 0.4 s
+  experiment 'graph' finished in 0.5 s
+  experiment 'pipeline' finished in 0.7 s
+  experiment 'quality' finished in 3.6 s
+  results and charts saved in outputs/
